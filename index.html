@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Youtube video custom</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- ВНИМАНИЕ! У каждого видео должен быть атрибут ID -->
+<!-- ВНИМАНИЕ! У каждого видео в src должны быть параметры enablejsapi=1&showinfo=0&modestbranding=0&rel=0 -->
+
+<div class="video-wrap">
+  <iframe id="video01" class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/StZcUAPRRac?enablejsapi=1&showinfo=0&modestbranding=0&rel=0" frameborder="0" allowfullscreen></iframe>
+  <button class="video-wrap__trigger">
+    <img src="http://img.youtube.com/vi/StZcUAPRRac/hqdefault.jpg" alt="Play video"></button>
+</div>
+
+<div class="video-wrap">
+  <iframe id="video02" class="video-wrap__video" width="560" height="315" src="https://www.youtube.com/embed/DGrPaVZH4mE?enablejsapi=1&showinfo=0&modestbranding=0&rel=0" frameborder="0" allowfullscreen></iframe>
+  <button class="video-wrap__trigger">
+    <img src="http://img.youtube.com/vi/DGrPaVZH4mE/hqdefault.jpg" alt="Play video"></button>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
